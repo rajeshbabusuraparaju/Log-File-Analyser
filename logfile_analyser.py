@@ -25,6 +25,9 @@ class LogTemplateStats:
     reasoning: str = ""
 
 
+# Dummy comment
+
+
 def parse_log_with_drain(file_path: str) -> Dict[str, LogTemplateStats]:
     """Streams log file line-by-line using Drain3 to cluster templates and capture stats."""
     config = TemplateMinerConfig()
