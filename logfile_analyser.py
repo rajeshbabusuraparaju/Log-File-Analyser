@@ -27,6 +27,8 @@ class LogTemplateStats:
 
 # Dummy comment
 
+# Dummy comment 2 in the feature branch to try PRs
+
 
 def parse_log_with_drain(file_path: str) -> Dict[str, LogTemplateStats]:
     """Streams log file line-by-line using Drain3 to cluster templates and capture stats."""
